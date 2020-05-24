@@ -1,0 +1,18 @@
+.page1{
+    &__pic{
+        width: 41%;
+        top: 23%;
+
+        position: absolute;
+        right: 5%;
+    }
+}
+
+
+@media (max-height: 721px){
+    .page1{
+        &__pic{
+            width: 36%;
+        }
+    }
+}

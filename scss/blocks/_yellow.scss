@@ -1,0 +1,12 @@
+.yellow{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 53%;
+}
+
+@media(max-height: 721px){
+    .yellow{
+        width: 46%;
+    }
+}
